@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .container {
+    @apply w-full mx-auto max-w-container-width px-12 sm:px-16 lg:px-24;
+  }
+
+  button {
+    background-color: unset;
+  }
+
+  button,
+  [type='button'],
+  [type='reset'],
+  [type='submit'] {
+    background-color: unset;
+  }
+
+  .btn {
+    @apply cursor-pointer py-[10px] w-full sm:w-fit px-[32px] rounded-[5px] text-[14px] lg:text-16 outline-none font-semibold leading-[26px] flex-center sm:rounded-[30px] text-white-color;
+  }
+}
+.news__page {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 500;
+
+  h1 {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+
+  h4 {
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+
+  h5 {
+    font-weight: 600;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+  }
+
+  u {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #595959;
+
+    @media screen and (min-width: 640px) {
+      font-size: 1.5rem;
+      line-height: 2.3rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.5rem;
+      line-height: 2.3rem;
+    }
+  }
+
+  img {
+    width: auto !important;
+    height: auto !important;
+  }
+}
+
+.word-wrap-anywhere {
+  word-wrap: anywhere;
+}
+
+.word-break {
+  word-break: break-all;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #f2f2f2;
+  }
+  100% {
+    background-color: #c4c4c4;
+  }
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.body-hidden {
+  overflow: hidden;
+  @media screen and (min-width: 1024px) {
+    padding-right: 17px;
+  }
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
