@@ -44,3 +44,6 @@ yarn add eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/par
 > 1. Môi trường VS Code, khi chúng ta đưa chuột vào click thì chạy đến đúng file
 > 2. Môi trường ES Lint
 > 3. Môi trường Terminal\*
+
+**Setup Project**
+https://duthanhduoc.com/blog/tao-du-an-react-vite-typescript-eslint#Buoc-7-Cau-hinh-alias-cho-vite-viteconfigts
