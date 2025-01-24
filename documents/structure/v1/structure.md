@@ -1,4 +1,5 @@
 **Chưa tối ưu**
+**V1 Redux**
 
 📦v1
 ┣ 📂@types :chứa type khi khai báo khi thư viện chưa có
