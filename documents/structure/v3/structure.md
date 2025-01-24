@@ -1,3 +1,4 @@
+**V1 Redux Context**
 https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md?fbclid=IwZXh0bgNhZW0CMTEAAR3ZALmCcaemoF0-BdC6xIXLuiAN8j1oz9LMX4EprboZqOUuBCL4wf-euM0_aem_9Q94JWbsCBvOZnqZGIhAEA
 
 src
